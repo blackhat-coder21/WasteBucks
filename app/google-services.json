@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "6853880847",
+    "project_id": "wastebucks-8e437",
+    "storage_bucket": "wastebucks-8e437.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6853880847:android:0052359a002ef997a5077a",
+        "android_client_info": {
+          "package_name": "com.example.wastebucks"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4lJxdejp_8XQTV0puYw03FpSrhcso7R4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

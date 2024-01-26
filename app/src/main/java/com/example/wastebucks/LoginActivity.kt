@@ -76,12 +76,6 @@ class LoginActivity : AppCompatActivity() {
                 password.requestFocus()
                 return@setOnClickListener
             }
-            else if(! password.text.toString().matches("[a-zA-Z0-9]+".toRegex()))
-            {
-                password.error = "Password can only contain alphanumeric character"
-                password.requestFocus()
-                return@setOnClickListener
-            }
             else{
                 loginUser()
             }

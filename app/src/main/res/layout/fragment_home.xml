@@ -30,10 +30,10 @@
                 <LinearLayout
                     android:id="@+id/linearLayout6"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginTop="25dp"
-                    android:layout_marginEnd="20dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="10dp"
                     android:inputType="textMultiLine"
                     android:orientation="horizontal"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -51,11 +51,11 @@
                         android:ems="10"
                         android:gravity="top|start"
                         android:padding="10dp"
-                        android:paddingStart="20dp"
+                        android:paddingStart="10dp"
                         android:paddingTop="50dp"
                         android:text="Hello!"
                         android:textColor="@color/algae"
-                        android:textSize="50sp"
+                        android:textSize="40sp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -63,45 +63,47 @@
                 <TextView
                     android:id="@+id/textView12"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="20dp"
                     android:layout_weight="1"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginRight="145dp"
                     android:textStyle="bold"
                     android:text="Your total earning till now is"
                     app:layout_constraintBottom_toBottomOf="@+id/linearLayout6"
                     app:layout_constraintEnd_toEndOf="@+id/linearLayout6"
-                    app:layout_constraintHorizontal_bias="0.11"
                     app:layout_constraintStart_toStartOf="@+id/linearLayout6"
                     app:layout_constraintTop_toTopOf="@+id/linearLayout6"
-                    app:layout_constraintVertical_bias="0.41000003" />
+                   />
 
                 <TextView
                     android:id="@+id/textView14"
                     android:layout_width="166dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="45dp"
                     android:layout_weight="1"
+                    android:layout_marginTop="135dp"
+                    android:layout_marginRight="147dp"
                     android:text="Great! you truly are an environmental hero!  "
                     app:layout_constraintBottom_toBottomOf="@+id/linearLayout6"
                     app:layout_constraintEnd_toEndOf="@+id/linearLayout6"
-                    app:layout_constraintHorizontal_bias="0.11"
                     app:layout_constraintStart_toStartOf="@+id/linearLayout6"
-                    app:layout_constraintTop_toTopOf="@+id/linearLayout6"
-                    app:layout_constraintVertical_bias="0.90999997" />
+                    app:layout_constraintTop_toTopOf="@+id/linearLayout6" />
 
                 <TextView
                     android:id="@+id/textView27"
                     android:layout_width="166dp"
-                    android:layout_height="61dp"
+                    android:layout_height="56dp"
                     android:layout_weight="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="155dp"
                     android:text="550 Rs"
                     android:textColor="@color/algae"
-                    android:textSize="50sp"
+                    android:textSize="40sp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="@+id/linearLayout6"
                     app:layout_constraintEnd_toEndOf="@+id/linearLayout6"
-                    app:layout_constraintHorizontal_bias="0.1"
                     app:layout_constraintStart_toStartOf="@+id/linearLayout6"
                     app:layout_constraintTop_toTopOf="@+id/linearLayout6"
-                    app:layout_constraintVertical_bias="0.63" />
+                    />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -113,8 +115,8 @@
                 <TextView
                     android:id="@+id/textView171"
                     android:layout_width="290dp"
-                    android:layout_height="wrap_content"
-                    android:paddingStart="27dp"
+                    android:layout_height="40dp"
+                    android:paddingStart="17dp"
                     android:text="Categories"
                     android:textColor="@color/algae"
                     android:textSize="25sp"
@@ -123,7 +125,7 @@
                 <TextView
                     android:id="@+id/textView20"
                     android:layout_width="134dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:layout_weight="1"
                     android:text="See All"
                     android:textSize="20sp" />
@@ -224,18 +226,17 @@
                 <TextView
                     android:id="@+id/textView1712"
                     android:layout_width="290dp"
-                    android:layout_height="wrap_content"
-                    android:paddingStart="27dp"
+                    android:layout_height="40dp"
+                    android:paddingStart="17dp"
                     android:text="Tasks in Progress"
                     android:textColor="@color/algae"
-                    android:padding="10dp"
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView202"
                     android:layout_width="134dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:layout_weight="1"
                     android:text="See All"
                     android:textSize="20sp" />
@@ -251,16 +252,18 @@
                     android:id="@+id/imageView8"
                     android:layout_width="match_parent"
                     android:layout_height="192dp"
-                    android:paddingLeft="20dp"
-                    android:paddingTop="20dp"
-                    android:paddingRight="20dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:layout_gravity="center"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
                     android:src="@drawable/img_4" />
 
                 <TextView
                     android:id="@+id/textView22"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingStart="27dp"
+                    android:layout_height="30dp"
+                    android:paddingStart="17dp"
                     android:text="Plastic Bottles"
                     android:textColor="@color/black"
                     android:textSize="25sp"
@@ -275,7 +278,7 @@
                         android:id="@+id/textView23"
                         android:layout_width="204dp"
                         android:layout_height="wrap_content"
-                        android:paddingStart="27dp"
+                        android:paddingStart="17dp"
                         android:text="20 Points | Today Dropped"
                         android:textStyle="bold" />
 
@@ -283,7 +286,7 @@
                         android:id="@+id/textView24"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="40dp"
+                        android:paddingEnd="10dp"
                         android:layout_weight="1"
                         android:text="5/10 Completed"
                         android:textAlignment="textEnd" />

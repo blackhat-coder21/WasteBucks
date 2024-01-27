@@ -7,7 +7,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         android:orientation="horizontal">
 
         <com.google.android.material.imageview.ShapeableImageView
@@ -35,7 +35,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="5dp"
         android:layout_weight="1"
         android:orientation="vertical">
 
@@ -54,7 +54,7 @@
                 <TextView
                     android:id="@+id/communityPostText"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="130dp"
                     android:padding="10dp"
                     android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget ultricies ultrices, nisl nisl aliquam nisl, nec aliquam nisl nisl nec nisl. Donec euismod, nisl eget ultricies"
                     android:textColor="@color/black"
@@ -76,15 +76,15 @@
             <TextView
                 android:id="@+id/communityLikeCount"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="25dp"
                 android:text="121 Likes"
                 android:textSize="14sp" />
             <TextView
                 android:id="@+id/communityTime"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="25dp"
                 android:layout_alignParentEnd="true"
-                android:text="9:30PM 31/01/2024"/>
+                android:text="9:30PM  31/01/2024"/>
 
         </RelativeLayout>
         <LinearLayout
@@ -93,18 +93,18 @@
             android:orientation="horizontal">
             <ImageView
                 android:id="@+id/favoriteIcon"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="5dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="2dp"
                 android:src="@drawable/favorite_unfilled"
                 app:tint="@color/next_btn" />
 
 
             <ImageView
                 android:id="@+id/bookmarkIcon"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="5dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="2dp"
                 android:src="@drawable/baseline_bookmark_border_24"
                 app:tint="@color/next_btn" />
         </LinearLayout>

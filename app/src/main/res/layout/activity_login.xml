@@ -50,11 +50,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:paddingLeft="45dp"
+                android:paddingLeft="25dp"
                 android:text="@string/your_email_string"
                 android:textColor="@color/black"
                 android:textSize="14sp"
-                app:layout_constraintBottom_toTopOf="@+id/logemail" />
+                app:layout_constraintBottom_toTopOf="@+id/logemail"
+                app:layout_constraintStart_toStartOf="@id/logemail" />
 
             <EditText
                 android:id="@+id/logemail"
@@ -73,14 +74,16 @@
 
 
             <TextView
+                android:id="@id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="25dp"
                 android:text="@string/password_string"
                 android:textColor="@color/black"
-                android:paddingLeft="45dp"
                 android:textSize="14sp"
-                android:layout_marginBottom="5dp"
-                app:layout_constraintBottom_toTopOf="@+id/log_pwd" />
+                app:layout_constraintBottom_toTopOf="@+id/log_pwd"
+                app:layout_constraintStart_toStartOf="@id/log_pwd" />
 
             <EditText
                 android:id="@+id/log_pwd"
@@ -174,7 +177,6 @@
                 android:layout_height="45dp"
                 android:background="@drawable/sign_in_bg"
                 android:layout_marginTop="25dp"
-                android:layout_marginBottom="200dp"
                 android:orientation="horizontal"
                 android:gravity="center"
                 app:layout_constraintBottom_toBottomOf="parent"

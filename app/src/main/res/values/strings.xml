@@ -10,7 +10,7 @@
     <string name="don_t_have_an_account__sign_up_string">Don\'t have an account?</string>
     <string name="welcome_back__string">Welcome Back!</string>
     <string name="login_ek3_string">Login</string>
-    <string name="or">--------------------------------  Or  --------------------------------</string>
+    <string name="or">------------------  Or  ------------------</string>
     <string name="leaderboard_heading">LEADERBOARD</string>
     <string name="onboarding_one_subject">Join us in revolutionizing waste management and embracing eco-friendly practices. With WasteBucks, you can effortlessly categorize your waste, earn rewards, and contribute to a sustainable future.</string>
     <string name="onboarding_two_subject">Simply categorize your waste, request collection, and our nearby hubs will estimate its quality and quantity, rewarding you with points. Redeem these points for a range of eco-friendly products that we deliver straight to you!</string>
@@ -40,4 +40,5 @@
     <string name="nameString">Name <font color="#FF0000"><b>*</b></font></string>
     <string name="emailString">Email <font color="#FF0000"><b>*</b></font></string>
     <string name="msgString">Message<font color="#FF0000"><b>*</b></font></string>
+    <string name="title_activity_maps">MapsActivity</string>
 </resources>

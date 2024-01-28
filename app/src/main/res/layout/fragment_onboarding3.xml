@@ -8,33 +8,36 @@
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imageView2"
-        android:layout_width="400dp"
-        android:layout_height="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
         android:src="@drawable/onboarding3_illustration"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/textView"
+        app:layout_constraintStart_toStartOf="@id/textView"
         app:layout_constraintTop_toBottomOf="@id/textView"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="15dp"
         android:scaleType="fitXY"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         app:shapeAppearance="@style/customRoundedImageView"/>
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginBottom="57dp"
         android:text="Be a Green Hero!"
         android:textColor="@color/black"
-        android:textSize="32sp"
+        android:textSize="26sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/imageView2"
-        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="35dp"/>
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_width="wrap_content"
         android:layout_marginTop="20dp"
         android:paddingHorizontal="15dp"
@@ -42,20 +45,20 @@
         android:text="@string/heading_three"
         android:textColor="@color/violet"
         android:textStyle="italic"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView2"
-        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"/>
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="5dp"
         android:paddingHorizontal="30dp"
         android:gravity="center"
         android:text="@string/onboarding_three_subject"
         android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="@+id/textView2"
-        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
